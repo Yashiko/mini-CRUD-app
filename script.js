@@ -15,7 +15,7 @@ $(document).ready(function () {
                 $("#names").html("<br>" + this.id + ": " + this.first_name + " " + this.last_name + ", " + this.gender + ", " + this.age + ", " + this.country + ";<br>");
                 return false;
             } else {
-                $("#names").html("<h1>Tokio asmens Nera</h1>");
+                $("#names").html("<h1>doesn't exist...</h1>");
             };
         });
         if (inputValue == " ") {
