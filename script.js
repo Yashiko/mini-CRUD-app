@@ -30,10 +30,10 @@ $(document).ready(function () {
         let inputAgeValue = $("#inputAge").val();
         let inputCountryNameValue = $("#inputCountry").val();
 
-        MOCK_DATA.push({"id":2, "first_name":inputNameValue,"last_name":inputLastNameValue,"gender":inputGenderValue,"age":inputAgeValue,"country":inputCountryNameValue});
-        $("#names").append( "<br>" + MOCK_DATA.id + ": " + MOCK_DATA.first_name + " " + MOCK_DATA.last_name + ", " + MOCK_DATA.gender + ", " + MOCK_DATA.age + ", " + MOCK_DATA.country + ";<br>")
-        
-
+        MOCK_DATA.push({ "first_name":inputNameValue,"last_name":inputLastNameValue,"gender":inputGenderValue,"age":inputAgeValue,"country":inputCountryNameValue});
+        $("#names").append("<br>" + MOCK_DATA.length + ": " + inputNameValue + " " + inputLastNameValue + ", " + inputGenderValue + ", " + inputAgeValue + ", " + inputCountryNameValue + ";<br>")
+       
+   
     });
 
    
