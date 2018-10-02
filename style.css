@@ -3,11 +3,15 @@ body {
   color: #6D443B;
   font-family: "Roboto Condensed", sans-serif; }
 
+h2 {
+  text-align: center; }
+
 .registration {
   margin: 0 auto;
   padding: 20px;
   background-color: #beeeec;
-  width: 50%; }
+  width: 50%;
+  height: 300px; }
   .registration form label {
     font-size: 20px;
     display: inline-block;
@@ -23,10 +27,6 @@ body {
 .container {
   margin: 0 auto;
   width: 50%; }
-
-.main {
-  margin: 0 auto;
-  width: 1200px; }
 
 .space {
   height: 100px; }

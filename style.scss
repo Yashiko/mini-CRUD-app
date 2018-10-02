@@ -8,12 +8,15 @@ body{
     color:$color;
     font-family: $font-family;
 }
-
+h2{
+    text-align: center;
+}
 .registration{
     margin: $margin-center;
     padding: 20px;
     background-color: rgb(190, 238, 236);
     width: 50%;
+    height: 300px;
     form{
         label{
             font-size: 20px;
@@ -28,15 +31,14 @@ body{
             margin: 5px;
             padding: 5px;
         }
+        #button{
+            
+        }
     }
 }
 .container{
     margin: $margin-center;
     width: 50%;
-}
-.main{
-    margin: $margin-center;
-    width: 1200px;
 }
 
 .space{
