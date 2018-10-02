@@ -8,12 +8,17 @@ body {
   padding: 20px;
   background-color: #beeeec;
   width: 50%; }
-  .registration form {
-    margin-left: 0 auto;
-    font-size: 20px; }
-    .registration form input {
-      margin: 5px;
-      padding: 5px; }
+  .registration form label {
+    font-size: 20px;
+    display: inline-block;
+    float: left;
+    width: 240px;
+    text-align: right; }
+  .registration form input {
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding: 5px; }
 
 .container {
   margin: 0 auto;
@@ -27,6 +32,7 @@ body {
   height: 100px; }
 
 .list {
-  font-size: 20px; }
+  font-size: 20px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */
