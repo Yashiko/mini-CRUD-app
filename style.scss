@@ -1,28 +1,40 @@
 $color:#6D443B;
 $font-family: 'Roboto Condensed', sans-serif;
 $font-size: 20px;
+$margin-center: 0 auto;
 
-.container{
-    margin: 0 auto;
-    width: 50%;
-}
-.main{
-    margin: 0 auto;
-    width: 1200px;
-}
-.registration{
-    padding: 20px;
-    background-color: rgb(190, 238, 236);
-    width: 50%;
-
-}
-.space{
-    height: 100px;
-}
 body{
     background-color:#F5ECEA;
     color:$color;
     font-family: $font-family;
+}
+
+.registration{
+    margin: $margin-center;
+    padding: 20px;
+    background-color: rgb(190, 238, 236);
+    width: 50%;
+    form{
+        margin-left: $margin-center;
+        font-size: 20px;
+        input{
+            
+            margin: 5px;
+            padding: 5px;
+        }
+    }
+}
+.container{
+    margin: $margin-center;
+    width: 50%;
+}
+.main{
+    margin: $margin-center;
+    width: 1200px;
+}
+
+.space{
+    height: 100px;
 }
 .list{
     font-size: $font-size;
