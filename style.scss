@@ -1,3 +1,29 @@
+$color:#6D443B;
+$font-family: 'Roboto Condensed', sans-serif;
+$font-size: 20px;
+
+.container{
+    margin: 0 auto;
+    width: 40%;
+}
+.main{
+    margin: 0 auto;
+    max-width: 1024px;
+}
+.registration{
+    padding: 20px;
+    background-color: rgb(190, 238, 236);
+    width: 50%;
+
+}
+.space{
+    height: 100px;
+}
 body{
-    background-color:#F5ECEA
+    background-color:#F5ECEA;
+    color:$color;
+    font-family: $font-family;
+}
+.list{
+    font-size: $font-size;
 }

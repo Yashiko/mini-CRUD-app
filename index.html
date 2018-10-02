@@ -1,42 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
+
 <body>
-<div>
-    <h2>Registration</h2>
-    <form>
-           Name: <input id="inputName" type="text"><br>
-           Last name:<input id="inputLastName" type="text"><br>
-           Sex:<input id="inputGender" type="text"><br>
-           Age:<input id="inputAge" type="text"><br>
-           Country:<input id="inputCountry" type="text"><br>
+    <div class="main">
+        <h2>Registration</h2>
+        <div class="registration">
+            <form>
+                Name: <input id="inputName" type="text"><br>
+                Last name:<input id="inputLastName" type="text"><br>
+                Sex:<input id="inputGender" type="text"><br>
+                Age:<input id="inputAge" type="text"><br>
+                Country:<input id="inputCountry" type="text"><br>
 
-           <input id="button" type="button" value="Register">
+                <input id="button" type="button" value="Register">
 
-    </form>
-    
-</div>
-<br><br>
+            </form>
 
 
-
-<input id="value" type="text" value="search..."><input id="btn" type="button" value="search">
-<div id="names"></div>
+            <br><br>
 
 
 
+            <input id="value" type="text" value="search..."><input id="btn" type="button" value="search">
+        </div>
+    </div>
+
+    <div class="space"></div>
+
+    <div class="container list">
+        <div id="names"></div>
+    </div>
 
 
-<script src="script.js"></script>  
-<script src="MOCK_DATA.js"></script>  
+
+
+
+
+    <script src="script.js"></script>
+    <script src="MOCK_DATA.js"></script>
 </body>
+
 </html>

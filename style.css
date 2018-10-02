@@ -1,4 +1,25 @@
+.container {
+  margin: 0 auto;
+  width: 40%; }
+
+.main {
+  margin: 0 auto;
+  max-width: 1024px; }
+
+.registration {
+  padding: 20px;
+  background-color: #beeeec;
+  width: 50%; }
+
+.space {
+  height: 100px; }
+
 body {
-  background-color: #F5ECEA; }
+  background-color: #F5ECEA;
+  color: #6D443B;
+  font-family: "Roboto Condensed", sans-serif; }
+
+.list {
+  font-size: 20px; }
 
 /*# sourceMappingURL=style.css.map */
