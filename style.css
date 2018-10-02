@@ -26,6 +26,9 @@ h2 {
   .registration form #button {
     width: 185px;
     margin-left: 36.5%; }
+  .registration .search {
+    display: inline-block;
+    margin-left: 32%; }
 
 .container {
   margin: 0 auto;
