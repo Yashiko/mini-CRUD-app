@@ -23,6 +23,9 @@ h2 {
     float: left;
     margin: 5px;
     padding: 5px; }
+  .registration form #button {
+    width: 185px;
+    margin-left: 36.5%; }
 
 .container {
   margin: 0 auto;
