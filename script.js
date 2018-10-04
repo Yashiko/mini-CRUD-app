@@ -33,7 +33,6 @@ $(document).ready(function () {
         MOCK_DATA.push({ "id": MOCK_DATA.length+1, "first_name":inputNameValue,"last_name":inputLastNameValue,"gender":inputGenderValue,"age":inputAgeValue,"country":inputCountryNameValue});
         $("#names").append("<br>" + MOCK_DATA.length + ": " + inputNameValue + " " + inputLastNameValue + ", " + inputGenderValue + ", " + inputAgeValue + ", " + inputCountryNameValue + ";<br>")
        
-   
     });
 
    
