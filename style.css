@@ -9,7 +9,7 @@ h2 {
 .registration {
   margin: 0 auto;
   padding: 20px;
-  background-color: #beeeec;
+  background-color: #cacdff;
   width: 50%;
   height: 300px; }
   .registration form label {
@@ -40,6 +40,6 @@ h2 {
 
 .list {
   font-size: 20px;
-  margin: 0 auto; }
+  margin-left: 35%; }
 
 /*# sourceMappingURL=style.css.map */
